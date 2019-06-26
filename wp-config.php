@@ -87,3 +87,5 @@ if ( !defined('ABSPATH') )
 
 /** Thiết lập biến và include file. */
 require_once(ABSPATH . 'wp-settings.php');
+
+define('WP_ALLOW_REPAIR',true);
